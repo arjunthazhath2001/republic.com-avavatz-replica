@@ -83,7 +83,7 @@ function NavBar() {
               onClick={handleDropdownToggle}
             >
               <img src={globeIcon} className="w-6 h-6" alt="Globe Icon" />
-              <span className="text-black text-[17px] font-semibold">US</span>
+              <span className="text-black text-[17px] font-normal">US</span>
             </div>
 
             {/* Dropdown */}
@@ -110,8 +110,8 @@ function NavBar() {
           </div>
 
           {/* Login and Sign up */}
-          <a className="text-black text-[17px] font-semibold hover:text-gray-600" href="#">Log in</a>
-          <a className="text-black text-[17px] font-semibold hover:text-gray-600" href="#">Sign up</a>
+          <a className="text-black text-[17px] font-normal hover:text-gray-600" href="#">Log in</a>
+          <a className="text-black text-[17px] font-normal hover:text-gray-600" href="#">Sign up</a>
         </div>
       </nav>
     </div>
