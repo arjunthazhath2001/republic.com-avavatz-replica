@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <NavBar/>
+      <div className="mx-16">
       <Body/>
       <About/>
       <Team/>
@@ -19,6 +20,7 @@ function App() {
       <Risks/>
       <Invest/>
       <Footer/>
+      </div>
     </>
   )
 }
