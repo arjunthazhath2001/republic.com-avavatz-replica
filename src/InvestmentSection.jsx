@@ -40,7 +40,7 @@ function InvestmentSection() {
         <div className="pitch-section mt-16">
           <h3 className="text-gray-500 font-bold text-2xl mb-10">Pitch</h3>
           <h2 className="text-black text-2xl font-semibold mt-4">AvaWatz: Unlocking the Power of AI Robotics</h2>
-          <p className="text-black text-[25px] mt-6">
+          <p className="text-black text-[23px] mt-6">
             At AvaWatz, we aim to unlock the true potential of robotics with our trusted AI platform. Our AI empowers robots to work together like teammates in harsh, unpredictable environments, freeing humans from danger and high-risk tasks. We aim to make robots smarter and safer, boosting efficiency and keeping humans out of harm's way. Think advanced AI for robotics that tackles inspections, maintenance, and more, all delivered through our easy-to-use platform.
           </p>
         </div>
