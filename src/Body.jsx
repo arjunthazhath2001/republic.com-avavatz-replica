@@ -119,14 +119,20 @@ function Body() {
             Invest in Avawatz
           </button>
           <span className="text-center text-gray-500 text-sm">
-            <span className='font-bold'>$2,500</span> minimum investment · <a href="#" className="text-blue-500 underline">Form CRS</a>
+            <span className='font-bold'>$2,500</span> minimum investment · <a href="#" className="text-blue-500 no-underline">Form CRS</a>
           </span>
         </div>
       </div>
     </div>
+
+    <div className="flex gap-8 font-bold">
+      <button className="text-blue-600 text-xl">Pitch</button>
+      <button className="text-gray-400 text-xl">Updates</button>
+    </div>
+    <hr className="border-t border-gray-300 mt-4 mb-6" />
+
     <InvestmentSection/>
     </>
-
   );
 }
 
