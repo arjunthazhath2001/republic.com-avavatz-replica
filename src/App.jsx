@@ -17,12 +17,12 @@ function App() {
       <div className="mx-20">
       <Body/>
       <ImageAndBonus/>
-      <About/>
+      {/* <About/>
       <Team/>
       <Press/>
       <Risks/>
       <Invest/>
-      <Footer/>
+      <Footer/> */}
       </div>
     </>
   )
