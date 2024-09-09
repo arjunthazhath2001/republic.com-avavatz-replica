@@ -78,7 +78,10 @@ function NavBar() {
         <div className="flex items-center space-x-6 pr-6">
           {/* Globe icon with US */}
           <div className="relative">
-            <div className="flex items-center space-x-2 cursor-pointer" onClick={handleDropdownToggle}>
+            <div 
+              className="flex items-center space-x-2 cursor-pointer hover:bg-gray-200 p-2 rounded-md transition-colors duration-200" 
+              onClick={handleDropdownToggle}
+            >
               <img src={globeIcon} className="w-6 h-6" alt="Globe Icon" />
               <span className="text-black text-[17px] font-semibold">US</span>
             </div>
@@ -91,7 +94,7 @@ function NavBar() {
                   animate={{ opacity: 1, y: 0 }} 
                   exit={{ opacity: 0, y: -10 }}
                   transition={{ duration: 0.2 }}
-                  className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+                  className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
                 >
                   <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                     <p className="block px-4 py-2 text-sm text-gray-700">Region preference</p>
