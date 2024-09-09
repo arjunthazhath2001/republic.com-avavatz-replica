@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './assets/avawatz.jpg'; // Assuming logo is in your folder
+import { FaBolt } from 'react-icons/fa'; // Importing thunderbolt icon from react-icons
 
 function Body() {
   return (
@@ -19,14 +20,18 @@ function Body() {
 
         {/* Tags */}
         <div className="flex space-x-2 pt-2 flex-wrap font-medium">
-          <span className="border border-orange-500 text-red-600 px-2 py-0.5 text-[10px] rounded-sm">SPECIAL</span>
-          <span className="bg-yellow-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">AAPI FOUNDERS</span>
-          <span className="bg-orange-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">IMMIGRANT FOUNDERS</span>
-          <span className="bg-blue-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">WOMEN FOUNDERS</span>
-          <span className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">SECURITY & DEFENSE</span>
-          <span className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">B2B</span>
-          <span className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">B2G</span>
-          <span className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm">ROBOTICS</span>
+          {/* SPECIAL Tag with Thunder Icon and Hyperlink */}
+          <a href="#" className="border border-orange-500 text-red-600 flex items-center px-2 py-0.5 text-[10px] rounded-sm hover:text-red-700 transition duration-300">
+            <FaBolt className="text-orange-500 mr-1" /> {/* Thunderbolt Icon */}
+            SPECIAL
+          </a>
+          <a href="#" className="bg-yellow-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">AAPI FOUNDERS</a>
+          <a href="#" className="bg-orange-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">IMMIGRANT FOUNDERS</a>
+          <a href="#" className="bg-blue-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">WOMEN FOUNDERS</a>
+          <a href="#" className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">SECURITY & DEFENSE</a>
+          <a href="#" className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">B2B</a>
+          <a href="#" className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">B2G</a>
+          <a href="#" className="bg-gray-100 text-gray-500 px-2 py-0.5 text-[10px] rounded-sm hover:text-gray-700 transition duration-300">ROBOTICS</a>
         </div>
 
         {/* Video */}
