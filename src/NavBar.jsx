@@ -37,7 +37,7 @@ function NavBar() {
       </div>
 
       {/* Second main navbar div */}
-      <nav className='bg-white border flex flex-row items-center justify-between border-solid border-black border-opacity-10 h-20 px-8'>
+      <nav className='bg-white border flex flex-row items-center justify-between border-solid border-black border-opacity-10 h-20 px-16'>
         {/* Left side - Logo and Menu */}
         <div className="flex items-center space-x-10">
           {/* Logo */}
